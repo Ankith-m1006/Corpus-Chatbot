@@ -1,0 +1,7 @@
+flask
+flask-socketio
+transformers
+torch
+nltk
+spacy
+scikit-learn

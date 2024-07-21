@@ -1,0 +1,205 @@
+{
+    "intents": [
+      {
+        "intent": "Welcome Intent",
+        "questions": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "Greetings",
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "Howdy"
+        ],
+        "answers": [
+          "Welcome to Jessup Cellars! How can I assist you today?",
+          "Hello! How can I help you with our wines or services today?",
+          "Hi there! What information can I provide for you today?",
+          "Greetings! How can I assist you with your wine needs?",
+          "Good morning! How can I help you today?",
+          "Good afternoon! What can I do for you today?",
+          "Good evening! How can I assist you this evening?",
+          "Howdy! How can I help you today?"
+        ]
+      },
+      {
+        "intent": "Wine Information",
+        "questions": [
+          "Tell me about your Chardonnay.",
+          "What wines do you offer?",
+          "Do you have Sauvignon Blanc?",
+          "Can you give me details about your red wines?",
+          "What is the alcohol content of your wines?",
+          "Do you have any sparkling wines?",
+          "Can you recommend a wine for a special occasion?",
+          "What are your best-selling wines?",
+          "Do you have any wine tasting notes?",
+          "What food pairs well with your Cabernet Sauvignon?",
+          "Are your wines available for purchase online?",
+          "Do you have limited release wines?",
+          "Can you tell me more about your white wines?"
+        ],
+        "answers": [
+          "We offer a variety of wines, including our popular Napa Valley Chardonnay and Sauvignon Blanc. Our Chardonnay is aged in a combination of new and neutral American Oak, offering a balanced and slightly creamy mouthfeel.",
+          "Our Napa Valley Chardonnay is well-balanced and aged for 10 months in 40% new American Oak barrels.",
+          "Yes, we have a Sauvignon Blanc sourced from North Coast vineyards, aged in 100% stainless steel barrels.",
+          "We offer red wines like Pinot Noir, Merlot blends, Cabernet Sauvignon, Mendocino Rougette, Zinfandel, and Petite Sirah.",
+          "The alcohol content varies by wine. For example, our Napa Valley Chardonnay has an alcohol content of 14.8%, while our Sauvignon Blanc has an alcohol content of 15.1%.",
+          "Currently, we do not offer sparkling wines. Our focus is on still wines, including whites, reds, and blends.",
+          "For a special occasion, I recommend our Juel, which is a blend of Cabernet Sauvignon, Merlot, and Petit Verdot. It's elegant and perfect for celebrations.",
+          "Our best-selling wines include our Napa Valley Chardonnay, Sauvignon Blanc, and our red blend Juel.",
+          "Yes, we provide detailed tasting notes for each of our wines. You can find these on our website or in our tasting room.",
+          "Our Cabernet Sauvignon pairs wonderfully with grilled meats, hearty stews, and aged cheeses.",
+          "Yes, our wines are available for purchase online. You can visit our website to place an order.",
+          "We do offer limited release wines. These are available to our wine club members and during special events.",
+          "Our white wines include Napa Valley Chardonnay and Sauvignon Blanc, both known for their balanced flavors and crisp finishes."
+        ]
+      },
+      {
+        "intent": "Visiting Hours and Location",
+        "questions": [
+          "What are your visiting hours?",
+          "When are you open?",
+          "What time do you close?",
+          "Where are you located?",
+          "How do I get to Jessup Cellars?",
+          "What's your address?",
+          "Do you have parking available?",
+          "Is there public transportation nearby?",
+          "Are you open on weekends?",
+          "What holidays are you closed?",
+          "Can I visit without a reservation?",
+          "Do you have guided tours?",
+          "Is your location wheelchair accessible?"
+        ],
+        "answers": [
+          "Jessup Cellars is open from 10 AM to 5:30 PM, seven days a week.",
+          "We are open daily from 10 AM to 5:30 PM.",
+          "We close at 5:30 PM every day.",
+          "We are located at 6740 Washington St., Yountville, CA.",
+          "You can reach us at 6740 Washington St., Yountville, CA, just a block north from The French Laundry.",
+          "Our address is 6740 Washington St., Yountville, CA 94599.",
+          "Yes, we have parking available for our visitors.",
+          "Public transportation is available nearby. Please check local transit options for the best route.",
+          "Yes, we are open on weekends.",
+          "We are closed on major holidays such as Thanksgiving and Christmas.",
+          "Walk-ins are welcome, but we recommend making a reservation to ensure availability.",
+          "Yes, we offer guided tours of our winery and art gallery.",
+          "Our location is wheelchair accessible, and we strive to accommodate all our guests."
+        ]
+      },
+      {
+        "intent": "Art Gallery Information",
+        "questions": [
+          "Tell me about your art gallery.",
+          "Who is the current resident artist?",
+          "Do you have any art exhibitions?",
+          "What kind of art do you display?",
+          "Can I buy art from your gallery?",
+          "How often do you change the exhibits?",
+          "Do you host art events?",
+          "What is the current exhibition?",
+          "Are there any upcoming art shows?",
+          "Can I meet the artists?",
+          "Do you offer art workshops?",
+          "Is there an admission fee for the gallery?",
+          "Do you collaborate with local artists?"
+        ],
+        "answers": [
+          "Our art gallery features rotating installations by celebrated regional and national artists. Currently, our resident artist is Jermaine Danté.",
+          "Jermaine Danté is our current resident artist. His bold and evocative artwork is on display in our gallery.",
+          "Yes, we have regular art exhibitions. You can enjoy the art while sipping on your favorite Jessup wines.",
+          "We display a variety of art, including large format colorful creations curated by our lead artist.",
+          "Yes, you can purchase art from our gallery.",
+          "We change our exhibits every few months to showcase new and exciting artwork.",
+          "Yes, we host various art events, including openings and artist talks.",
+          "Our current exhibition features the works of Jermaine Danté.",
+          "Yes, we have several upcoming art shows. Please check our website for the latest schedule.",
+          "Occasionally, our artists are available for meet-and-greet events. Check our event calendar for details.",
+          "We offer occasional art workshops. Please check our website for upcoming dates.",
+          "There is no admission fee for the gallery. We welcome all visitors.",
+          "Yes, we frequently collaborate with local artists to bring fresh and diverse art to our gallery."
+        ]
+      },
+      {
+        "intent": "Events and Experiences",
+        "questions": [
+          "What events do you host?",
+          "Tell me about the Art House Sessions.",
+          "Do you have any wine tasting events?",
+          "What experiences do you offer?",
+          "Can I book a private event?",
+          "What is the Art House Short Film Series?",
+          "Do you offer food and wine pairing events?",
+          "Are there any upcoming music events?",
+          "Can I host a corporate event at your venue?",
+          "Do you have seasonal events?",
+          "How can I find out about upcoming events?",
+          "Do you offer virtual wine tastings?",
+          "What is included in a wine tasting experience?"
+        ],
+        "answers": [
+          "We host various events, including our Art House Sessions summer music series and Art House Short Film Series.",
+          "Art House Sessions is our summer music series featuring live performances by regional and national artists.",
+          "Yes, we offer hosted wine tastings in our spacious gallery among curated art. You can also join our interactive experiences focusing on the arts.",
+          "You can enjoy wine tastings, art exhibitions, and our special events like Art House Sessions and Short Film Series.",
+          "Yes, we have space available for private events and special accommodations. Please contact us for more details.",
+          "The Art House Short Film Series is an event where we showcase short films curated by our team, focusing on various themes and genres.",
+          "We offer food and wine pairing events where you can enjoy our wines with carefully selected food pairings.",
+          "Yes, we have several upcoming music events. Please check our website for the latest schedule.",
+          "Our venue is available for corporate events. Please contact us for more details on booking and accommodations.",
+          "We host seasonal events throughout the year, including harvest celebrations and holiday gatherings.",
+          "You can find out about upcoming events by visiting our website or signing up for our newsletter.",
+          "We offer virtual wine tastings where you can enjoy a guided tasting experience from the comfort of your home.",
+          "A wine tasting experience includes a selection of our wines, guided by our knowledgeable staff, and often includes insights into the winemaking process and tasting notes."
+        ]
+      },
+      {
+        "intent": "Wine Club Membership",
+        "questions": [
+          "What are the benefits of your wine club?",
+          "How can I join the wine club?",
+          "What do I get as a wine club member?",
+          "Is there a fee to join the wine club?",
+          "What wines are included in the wine club?",
+          "How often do I receive wine shipments?",
+          "Can I customize my wine shipments?",
+          "Do you offer different levels of membership?",
+          "Are there any exclusive events for wine club members?",
+          "What discounts do wine club members receive?",
+          "Can I gift a wine club membership?",
+          "What is the cancellation policy for the wine club?",
+          "How do I update my wine club membership information?"
+        ],
+        "answers": [
+          "Our wine club offers exclusive benefits including quarterly shipments of our hand-selected wines, access to limited release wines, complimentary tastings, and special discounts on purchases.",
+          "You can join our wine club by visiting our website or by signing up in our tasting room.",
+          "As a wine club member, you receive quarterly wine shipments, access to exclusive wines, complimentary tastings, and discounts on wine purchases and events.",
+          "There is no fee to join our wine club, but you will be billed for each shipment of wine.",
+          "The wines included in the wine club shipments vary, featuring a selection of our most popular and exclusive wines.",
+          "Wine shipments are sent quarterly to our members.",
+          "Yes, you can customize your wine shipments to suit your preferences.",
+          "We offer different levels of membership with varying benefits and shipment sizes. Please visit our website for more details.",
+          "Yes, we host exclusive events for our wine club members, including special tastings and release parties.",
+          "Wine club members receive a discount on all wine purchases and select events. The exact discount varies by membership level.",
+          "Yes, you can gift a wine club membership to friends or family. Please contact us for more details.",
+          "You can cancel your wine club membership at any time. Please contact us to process your cancellation.",
+          "To update your wine club membership information, please log into your account on our website or contact our customer service team."
+        ]
+      }
+    ],
+    "fallback": {
+      "questions": [
+        "How can I contact customer service?",
+        "I have a question that's not listed here.",
+        "Can you provide more details?",
+        "Who can I speak with for more information?"
+      ],
+      "answers": [
+        "For any inquiries outside the provided information, please contact our customer service team at (email@example.com) or call us at (123-456-7890)."
+      ]
+    }
+  }
+  
+  

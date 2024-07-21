@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessup Cellars Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">Jessup Cellars Chatbot</div>
+        <div id="chat-box" class="chat-box"></div>
+        <div class="chat-input">
+            <input id="message" type="text" placeholder="Type your message here...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+        <!-- Intent Buttons Section -->
+        <div id="intent-buttons" class="intent-buttons"></div>
+        <!-- Question Buttons Section -->
+        <div id="question-buttons" class="intent-questions"></div>
+    
+    </div>
+
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>

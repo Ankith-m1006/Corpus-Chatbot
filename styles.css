@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.chat-container {
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.chat-header {
+    background-color: #6c3483;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    text-align: center;
+    position: sticky;
+}
+.chat-box {
+    height: 300px;
+    padding: 16px;
+    overflow-y: auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+.chat-input {
+    display: flex;
+    padding: 16px;
+}
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+.chat-input button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #6c3483;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.intents {
+    padding: 16px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.intent {
+    display: inline-block;
+    cursor: pointer;
+    color: #6c3483;
+    margin: 4px 8px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.intent:hover {
+    text-decoration: none;
+}
+.intent-questions {
+    display: none;
+    margin-top: 8px;
+}
+.intent-question {
+    cursor: pointer;
+    margin: 4px 0;
+    padding-left: 16px;
+}
+.message {
+    margin-bottom: 16px;
+}
+.message.user p {
+    background-color: #d1e7dd;
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 80%;
+    margin-left: auto;
+}
+.message.bot p {
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 80%;
+}
+/* Existing styles */
+
+.intent-buttons {
+    padding: 16px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.intent-button, .question-button {
+    display: inline-block;
+    cursor: pointer;
+    color: #6c3483;
+    margin: 4px 8px;
+    font-weight: bold;
+    text-decoration: underline;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+}
+
+.intent-button:hover, .question-button:hover {
+    text-decoration: none;
+    background-color: #e0e0e0;
+}
